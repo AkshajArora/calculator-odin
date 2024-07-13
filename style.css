@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #fffdd9;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 420px;
+    background-color: #917ACF;
+    padding: 10px;
+}
+
+#display{
+    width: 402px;
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: #E2EEB2;
+}
+
+.operand{
+    border: 1px solid #F3F0B9;
+    font-size: 20px;
+    background-color: #70BD8C;
+    padding: 10px 15px;
+    min-width: 100px;
+    min-height: 75px;
+}
+
+.operator{
+    font-size: 26px;
+    background-color: #71A0EC;
+}
+
+.clear{
+    background-color: #DD6F7C;
+}
+
+.equalto{
+    background-color: #EBB971;
+}
+
+button:hover{
+    opacity: 0.7;
+}
